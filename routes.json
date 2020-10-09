@@ -1,8 +1,11 @@
 {
-  "route": "/*",
-  "allowedRoles": ["authenticated"]
-},
-{
-  "route": "/private/*",
-  "status":401
+    "routes": [{
+            "route": "/*",
+            "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/private/*",
+            "status": 401
+        }
+    ]
 }
