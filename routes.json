@@ -1,8 +1,8 @@
 {
     "routes": [
         {
-            "route": "/private/*",
-            "statusCode": 401
+            "route": "/private",
+            "allowedRoles": ["authenticated"]
         }
     ]
 }
