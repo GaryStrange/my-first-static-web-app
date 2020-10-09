@@ -1,9 +1,12 @@
 {
-    "routes": [
-        {
+    "routes": [{
             "route": "/*",
             "serve": "/index2.html",
             "statusCode": 200
+        },
+        {
+            "route": "/private/*",
+            "statusCode": 401
         }
     ]
 }
